@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WaltahWhite</string>
+    <string name="call">Press button to call Walter White</string>
+    <string name="callling">Calling Walter White...</string>
+    <string name="callEnd">Call ended</string>
+    <string name="alt">e</string>
+</resources>

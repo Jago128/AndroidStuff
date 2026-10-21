@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DeviceManager</string>
+    <string name="titleText">Device Manager</string>
+    <string name="editText">Device Name</string>
+    <string name="rbPhone">Phone</string>
+    <string name="rbTablet">Tablet</string>
+    <string name="cbBluetooth">Bluetooth</string>
+    <string name="cb5G">5G</string>
+    <string name="btnCreate">Add Device</string>
+    <string name="placeholder">Currently empty</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LayoutsTest</string>
+    <string name="filter">Filter</string>
+    <string name="social">Social</string>
+    <string name="moar">Check more</string>
+    <string name="image">PH</string>
+</resources>

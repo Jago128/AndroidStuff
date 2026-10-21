@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    tools:layout_editor_absoluteX="-2dp"
+    tools:layout_editor_absoluteY="-5dp">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toTopOf="@+id/tvPrompt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTitle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title2"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@id/toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvGreet"
+        android:layout_width="270dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/tvIdeal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <TextView
+        android:id="@+id/tvIdeal"
+        android:layout_width="271dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="46dp"
+        android:text="@string/ideal"
+        app:layout_constraintBottom_toTopOf="@+id/tbRb"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvGreet" />
+
+    <TextView
+        android:id="@+id/tbRb"
+        android:layout_width="262dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/rb"
+        app:layout_constraintBottom_toTopOf="@+id/tvChoice1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvChoice1"
+        android:layout_width="261dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="81dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tbRb" />
+
+    <TextView
+        android:id="@+id/tvCb1"
+        android:layout_width="262dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="6dp"
+        android:text="@string/cb1"
+        app:layout_constraintBottom_toTopOf="@+id/tvChoice2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvChoice1" />
+
+    <TextView
+        android:id="@+id/tvChoice2"
+        android:layout_width="261dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="45dp"
+        app:layout_constraintBottom_toTopOf="@+id/tvChoice3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvCb1" />
+
+    <TextView
+        android:id="@+id/tvChoice3"
+        android:layout_width="261dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="82dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnSound"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvChoice2" />
+
+    <Button
+        android:id="@+id/btnSound"
+        android:layout_width="292dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="65dp"
+        android:text="@string/music"
+        app:layout_constraintBottom_toTopOf="@+id/btnMap"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvChoice3" />
+
+    <Button
+        android:id="@+id/btnMap"
+        android:layout_width="292dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="89dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/map"
+        app:layout_constraintBottom_toTopOf="@+id/btnSound"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvChoice3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

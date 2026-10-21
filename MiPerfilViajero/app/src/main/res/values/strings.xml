@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MiPerfilViajero</string>
+    <string name="title1">Mi Perfil Viajero</string>
+    <string name="prompt">Crea tu perfil de viajero</string>
+    <string name="subTitle">Cuéntanos cómo es tu viaje ideal</string>
+    <string name="name">Tu nombre</string>
+    <string name="hint">Escribe tu nombre</string>
+    <string name="rb">Destino favorito</string>
+    <string name="rb1">Playa</string>
+    <string name="rb2">Montaña</string>
+    <string name="rb3">Ciudad</string>
+    <string name="cb">Preferencias</string>
+    <string name="cb1">Viajo con mochila</string>
+    <string name="cb2">Me gusta hacer fotos</string>
+    <string name="btn1">VER MI VIAJE IDEAL</string>
+    <string name="title2">Mi Viaje Ideal</string>
+
+    <string name="ideal">Este es tu viaje ideal</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    <string name="music">REPRODUCIR SONIDO</string>
+    <string name="map">ABRIR MAPA</string>
+</resources>
